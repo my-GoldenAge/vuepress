@@ -1,14 +1,14 @@
 #!/usr/bin/env sh
  
-# È·±£½Å±¾Å×³öÓöµ½µÄ´íÎó
+# ç¡®ä¿è„šæœ¬æŠ›å‡ºé‡åˆ°çš„é”™è¯¯
 set -e
  
-# Éú³É¾²Ì¬ÎÄ¼ş , yarn docs:build
+# ç”Ÿæˆé™æ€æ–‡ä»¶ , yarn docs:build
 npm run docs:build
 
-# git³õÊ¼»¯£¬Ã¿´Î³õÊ¼»¯²»Ó°ÏìÍÆËÍ
+# gitåˆå§‹åŒ–ï¼Œæ¯æ¬¡åˆå§‹åŒ–ä¸å½±å“æ¨é€
 git add -A
 git commit -m 'deploy'
 
-# Èç¹ûÄãÏëÒª²¿Êğµ½ https://USERNAME.github.io
+# å¦‚æœä½ æƒ³è¦éƒ¨ç½²åˆ° https://USERNAME.github.io
 git push -u origin "master"

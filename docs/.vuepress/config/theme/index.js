@@ -4,7 +4,7 @@ const sidebar = require('../sidebar.js')
 
 module.exports = Object.assign({}, themeReco, {
     nav,
-    sidebar: sidebar,
+    // sidebar: sidebar,
     // logo: '/head.png',
     // 搜索设置
     search: true,

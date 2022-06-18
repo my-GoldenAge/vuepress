@@ -1,19 +1,19 @@
 ---
 home: true
-heroText: '粉丝的个人博客'
+heroText: '萧瑟的个人博客'
 bgImage: '/img/5.jpg'
 bgImageStyle: {
-  height: '350px'
+  height: '500px'
 }
-# faceImage: '/head.png'
-# heroImage: '/hero_white.png'
-# heroImageStyle: {
-#   maxHeight: '150px',
-#   display: block,
-#   margin: '6rem auto 1.5rem',
-#   borderRadius: '5%',
-#   boxShadow: '0 5px 18px rgba(0,0,0,0.5)'
-# }
+faceImage: '/head.png'
+heroImage: '/hero_white.png'
+heroImageStyle: {
+  maxHeight: '150px',
+  display: block,
+  margin: '6rem auto 1.5rem',
+  borderRadius: '5%',
+  boxShadow: '0 5px 18px rgba(0,0,0,0.5)'
+}
 isShowTitleInHome: true
 actionText: About Me
 actionLink: /views/personalInfo/
