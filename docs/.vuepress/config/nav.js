@@ -6,14 +6,9 @@ module.exports = [
     {
         text: 'Java', icon: 'reco-api',
         items: [
-            {
-				text: 'Java高级',
-				items: [
-                    {text: 'Java并发编程的艺术', link: '/Java/Java高级/Java并发编程的艺术/'},
-					{text: 'JavaSE', link: '/技术文章/java/javase'},
-					{text: 'JavaEE', link: '/技术文章/java高级/javaee'},
-				]
-			},
+
+            {text: 'Java并发编程的艺术', link: '/Java/Java并发编程的艺术/'},
+
             {
 				text: '前端',
 				items: [
@@ -23,9 +18,12 @@ module.exports = [
         ]
     },
     {
-        text: '生活分享', link: '/生活分享/', icon: 'reco-faq',
+        text: 'Idea', icon: 'reco-faq',
         items: [
-			{text: '生活分享', link: '/生活分享/life'},
+
+            {text: 'Idea', link: '/Idea/' },
+
+            {text: '王小波', link: '/Idea/王小波/'},
         ]
     },
     { text: '时间轴', link: '/timeline/', icon: 'reco-date' },

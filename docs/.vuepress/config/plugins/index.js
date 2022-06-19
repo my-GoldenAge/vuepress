@@ -11,7 +11,7 @@ module.exports = {
      },
     "vuepress-plugin-auto-sidebar": {
         collapsable: true,
-        titleMode: "titlecase",
+        // titleMode: "titlecase",
     },
     "vuepress-plugin-baidu-autopush":{
 
@@ -35,7 +35,7 @@ module.exports = {
         showIcon: "/img/favicon.ico",
         showText: "(/≧▽≦/)欢迎回来！",
         hideIcon: "/img/favicon.ico",
-        hideText: "别跑",
+        hideText: "别跑呀",
         recoverTime: 2000
     },
 	'@vuepress/nprogress':{
@@ -67,6 +67,11 @@ module.exports = {
             cover: false,
             lrc: false,
         }
+    },
+    'fulltext-search': {
+        // tokenize: 'full',
+        // split: /\s+/,
+        // encode: 'icase',
     },
 	// '@vuepress-reco/vuepress-plugin-bgm-player':{
 	// 	autoShrink: {

@@ -86,10 +86,10 @@ module.exports = {
         // 搜索设置
         search: true,
         searchMaxSuggestions: 10,
-        algolia: {
-            apiKey: '<API_KEY>',
-            indexName: '<INDEX_NAME>'
-        },
+        // algolia: {
+        //     apiKey: '<API_KEY>',
+        //     indexName: '<INDEX_NAME>'
+        // },
         lastUpdated: '上次更新：',
         series: 'any',
         // ICP备案
