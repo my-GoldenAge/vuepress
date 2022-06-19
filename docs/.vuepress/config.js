@@ -4,7 +4,7 @@ const sidebarConf = require('./config/sidebar')
 const pluginsConf = require('./config/plugins/index')
 module.exports = {
     //注意，此处需要填写你部署在nginx下的文件夹名称，如果是根目录，那么可以注释掉此行，注释掉后本地打开index.html无法访问
-    //base: "/dist/",
+    base: "/vuepress/",
     title: "MyGoldenAge",
     description: '那是我的黄金时代',
     dest: './dist',
